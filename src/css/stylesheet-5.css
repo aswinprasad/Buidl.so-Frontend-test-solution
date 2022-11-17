@@ -164,7 +164,7 @@
   }
 }
 body {
-  font-family: "gilroy-regular", sans-serif;
+  font-family: 'Gilroy-Regular', sans-serif;
   color: #808080;
   background: #fafafa;
 }
@@ -971,7 +971,6 @@ body {
   object-fit: cover;
 }
 .program-view-mentor-profile {
-  border-radius: 100%;
   max-width: 300px;
   aspect-ratio: 1;
   min-width: 150px;

@@ -1,0 +1,158 @@
+body {
+  /* apply font in body */
+  font-family: "Gilroy-Medium", sans-serif;
+  background: #fafafa;
+}
+
+.btn {
+  /* "apply" button width */
+  width: 300px;
+  border-radius: 12px;
+}
+
+.btn-end {
+  margin: 5rem 0;
+}
+.para-title h2 {
+  /* "Pitch to CoinDCX fontsize" */
+  font-size: 4rem;
+}
+
+.para-title h1 {
+  /* "Pitch to CoinDCX fontsize" */
+  font-size: 6.5rem;
+}
+
+.para-title p {
+  margin: 4rem 0 4rem 0;
+  font-size: 2rem;
+}
+
+.faq {
+  /* increasing faq contents fontsize */
+  margin-right: 0rem;
+  font-size: 2rem;
+}
+
+.faq-title {
+  /* overriding margin property for faq title */
+  margin: 4rem 0 !important;
+  font-size: 4rem !important;
+}
+
+.program-view-mentor-profile {
+  /* mentor image border radius */
+  border-radius: 6px;
+}
+
+.mentor-title {
+  /* "Mentoring Sessions" properties */
+  margin: 5rem 0 !important;
+  text-align: center;
+  opacity: 0.6;
+  font-size: 2.5rem !important;
+  font-weight: 600;
+}
+
+.mentor-profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container {
+  margin: 10rem 20%;
+}
+.info {
+  /* infographic layout */
+  display: flex;
+  flex-direction: column;
+}
+
+.info-text {
+  /* infographic text layout */
+  text-align: center;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-text p {
+  font-weight: 600;
+  font-size: 2.5rem;
+  opacity: 0.4;
+}
+
+.text-money {
+  font-size: 10rem !important;
+  opacity: 1;
+}
+
+.line {
+  /* vertical line between the 2 divs */
+  height: 2px;
+  background-color: white;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#403a41),
+    to(rgba(0, 0, 0, 0))
+  );
+  background-image: -webkit-linear-gradient(left, #403a41, rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, #403a41, rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, #403a41, rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, #403a41, rgba(0, 0, 0, 0));
+  width: 400px;
+  position: relative;
+  margin: 5rem 0;
+}
+
+@media screen and (min-width: 720px) {
+  .para-title p {
+    margin: 4rem 25rem 4rem 0;
+    font-size: 2rem;
+  }
+  .faq {
+    margin-right: 25rem;
+    font-size: 2rem;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .line {
+    /* horizontal line between the 2 divs */
+    height: 400px;
+    background-color: white;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#403a41),
+      to(rgba(0, 0, 0, 0))
+    );
+    background-image: -webkit-linear-gradient(top, #403a41, rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(top, #403a41, rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(top, #403a41, rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(top, #403a41, rgba(0, 0, 0, 0));
+    width: 2px;
+    position: relative;
+    margin: 0 5rem;
+  }
+
+  .info-container {
+    margin: 10rem 10rem;
+  }
+  .mentor-images {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+}
